@@ -1,0 +1,58 @@
+name: flutter_guy
+description: "Flutter base project"
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0-312.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # state management
+  flutter_bloc: ^9.0.0
+  # cached image
+  cached_network_image: ^3.4.1
+  # compare objects
+  equatable: ^2.0.7
+  # database (SQLite)
+  floor: ^1.5.0
+  sqflite: ^2.4.1
+  # hooks
+  flutter_hooks: ^0.20.5
+  # service locator (dependency injector)
+  get_it: ^8.0.3
+  # date format
+  intl: ^0.20.2
+  # make request to api
+  dio: ^5.8.0+1
+  retrofit: ^4.4.2
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+  retrofit_generator: ^9.1.7
+  floor_generator: ^1.5.0
+  build_runner: ^2.4.14
+
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # To add custom fonts to your application, add a fonts section here.
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: fonts/Muli.ttf
+        - asset: fonts/Muli-Bold.ttf
+          weight: 700
+        - asset: fonts/Muli-Light.ttf
+          weight: 300
