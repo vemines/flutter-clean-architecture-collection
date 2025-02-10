@@ -1,7 +1,8 @@
+import 'dart:math';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
-import 'dart:math';
 import 'package:provider/provider.dart';
 
 import '../../../../../core/connection/network_info.dart';

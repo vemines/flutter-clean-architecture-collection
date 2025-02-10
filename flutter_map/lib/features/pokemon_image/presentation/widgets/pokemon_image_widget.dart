@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_map/features/pokemon_image/presentation/providers/pokemon_image_provider.dart';
+import '../providers/pokemon_image_provider.dart';
 import 'package:provider/provider.dart';
 
 import '../../../../core/errors/failure.dart';

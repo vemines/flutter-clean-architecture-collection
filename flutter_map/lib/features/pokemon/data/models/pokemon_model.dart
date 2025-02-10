@@ -1,6 +1,6 @@
-import 'sub_models.dart';
 import '../../../../../core/constants/constants.dart';
 import '../../business/entities/pokemon_entity.dart';
+import 'sub_models.dart';
 
 class PokemonModel extends PokemonEntity {
   const PokemonModel({
@@ -20,11 +20,6 @@ class PokemonModel extends PokemonEntity {
   }
 
   Map<String, dynamic> toJson() {
-    return {
-      kName: name,
-      kId: id,
-      kSprites: sprites,
-      kTypes: types,
-    };
+    return {kName: name, kId: id, kSprites: sprites, kTypes: types};
   }
 }

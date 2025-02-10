@@ -1,5 +1,6 @@
-import 'package:reso_coder/features/number_trivia/domain/entities/number_trivia.dart';
 import 'package:equatable/equatable.dart';
+
+import '../../domain/entities/number_trivia.dart';
 
 abstract class NumberTriviaState extends Equatable {
   @override

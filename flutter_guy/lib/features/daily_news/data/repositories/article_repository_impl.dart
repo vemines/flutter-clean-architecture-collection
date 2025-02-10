@@ -4,11 +4,11 @@ import 'package:dio/dio.dart';
 
 import '../../../../core/constants/constants.dart';
 import '../../../../core/resources/data_state.dart';
-import '../data_sources/remote/news_api_service.dart';
-import '../data_sources/local/app_database.dart';
-import '../models/article.dart';
 import '../../domain/entities/article.dart';
 import '../../domain/repositories/article_repository.dart';
+import '../data_sources/local/app_database.dart';
+import '../data_sources/remote/news_api_service.dart';
+import '../models/article.dart';
 
 class ArticleRepositoryImpl implements ArticleRepository {
   final NewsApiService _newsApiService;

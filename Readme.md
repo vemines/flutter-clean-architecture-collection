@@ -8,4 +8,4 @@ Collection clean architecture of [Flutter Guys](https://www.youtube.com/watch?v=
 
 I want avoid Generate Code when write test, and i can't find way handle Future without generate code.
 <br/>
-I new at write test in Flutter so test code may not correctly. All test passed
+I new at write test in Flutter so test code may not correctly. All test passed.

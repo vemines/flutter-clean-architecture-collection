@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_map/core/constants/constants.dart';
+import '../../../../core/constants/constants.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

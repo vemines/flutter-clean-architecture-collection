@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:reso_coder/core/error/exceptions.dart';
-import 'package:reso_coder/core/error/failures.dart';
 
+import '../../../../core/error/exceptions.dart';
+import '../../../../core/error/failures.dart';
 import '../../../../core/network/network_info.dart';
 import '../../domain/entities/number_trivia.dart';
 import '../../domain/repositories/number_trivia_repository.dart';

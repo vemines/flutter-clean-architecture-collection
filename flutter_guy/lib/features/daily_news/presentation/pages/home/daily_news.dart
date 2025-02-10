@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../article_detail/article_detail.dart';
-import '../saved_article/saved_article.dart';
+import '../../../domain/entities/article.dart';
 import '../../bloc/article/remote/remote_articles_bloc.dart';
 import '../../widgets/article_tile.dart';
-import '../../../domain/entities/article.dart';
+import '../article_detail/article_detail.dart';
+import '../saved_article/saved_article.dart';
 
 class DailyNewsScreen extends StatelessWidget {
   const DailyNewsScreen({super.key});

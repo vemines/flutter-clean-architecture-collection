@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:floor/floor.dart';
 import 'package:sqflite/sqflite.dart' as sqflite;
 
-import 'dao/article_dao.dart';
 import '../../models/article.dart';
+import 'dao/article_dao.dart';
 
 part 'app_database.g.dart';
 
